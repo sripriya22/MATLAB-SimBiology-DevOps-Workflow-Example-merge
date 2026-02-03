@@ -2,7 +2,6 @@ classdef ConcTimecourseView < handle
     
     properties ( Access = private ) 
         Model
-        Axes
         
         ConcColors = [0.30,0.75,0.93;...
                       0.86,0.55,0.41;...
@@ -10,7 +9,11 @@ classdef ConcTimecourseView < handle
         FontName = "Helvetica";
     end
 
-    properties ( SetAccess=private, GetAccess={?tTMDDApp} )
+    properties ( Hidden )
+        % Leave these properties Hidden but public to enable access for any test generated
+        % with Copilot during workshop
+        Axes
+
         % line handles
         lhDrug
         lhReceptor
@@ -35,13 +38,16 @@ classdef ConcTimecourseView < handle
             xlabel(ax, "Time (hours)", 'FontName',obj.FontName);
             ylabel(ax, "Concentrations (nanomole/liter)",'FontName',obj.FontName);
 
-            obj.lhDrug = plot(ax, NaN, NaN, '-','Linewidth',2,'Color',obj.ConcColors(1,:));
+            obj.lhDrug = plot(ax, NaN, NaN, '-','Linewidth',2,'Color',obj.ConcColors(1,:),'DisplayName','Drug');
             hold(ax,'on');
-            obj.lhReceptor = plot(ax, NaN, NaN, '-','Linewidth',2,'Color',obj.ConcColors(2,:));
-            obj.lhComplex= plot(ax, NaN, NaN, '-','Linewidth',2,'Color',obj.ConcColors(3,:));
+            obj.lhReceptor = plot(ax, NaN, NaN, '-','Linewidth',2,'Color',obj.ConcColors(2,:),'DisplayName','Receptor');
+            obj.lhComplex= plot(ax, NaN, NaN, '-','Linewidth',2,'Color',obj.ConcColors(3,:),'DisplayName','Complex');
             hold(ax,'off');
-            lh = legend(ax,{'Drug','Receptor','Complex'},'FontName',obj.FontName);
-            lh.Box = 'off';
+            lgd = legend(ax,'show','FontName',obj.FontName,'Color','none');
+            lgd.Box = "off";
+
+            ax.XLimitMethod = "padded";
+            ax.YLimitMethod = "padded";
         
             % instantiate listener
             dataListener = event.listener( model, 'DataChanged', ...

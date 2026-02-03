@@ -8,7 +8,10 @@ classdef ROTimecourseView < handle
             'FontWeight','bold','LabelVerticalAlignment','middle'}; % style for threshold lines
     end
 
-    properties ( GetAccess = {?tTMDDApp} )
+    properties ( Hidden, SetAccess=private)
+        % Leave these properties Hidden but public to enable access for any test generated
+        % with Copilot during workshop
+
         % line handles
         lhRO
     end
@@ -39,12 +42,12 @@ classdef ROTimecourseView < handle
             ylabel(ax, "RO (%)",'FontName',obj.FontName);
 
             obj.lhRO = plot(ax, NaN, NaN, 'Color', obj.ROColors,'Linewidth',2);
-            yline(ax,model.ThresholdValues(1), '--','efficacy','FontName',obj.FontName,obj.ThresholdStyle{:});
-            yline(ax,model.ThresholdValues(2), '--','safety','FontName',obj.FontName,obj.ThresholdStyle{:});
+            % yline(ax,model.ThresholdValues(1), '--','efficacy','FontName',obj.FontName,obj.ThresholdStyle{:});
+            % yline(ax,model.ThresholdValues(2), '--','safety','FontName',obj.FontName,obj.ThresholdStyle{:});
 
                 
             % set limits
-            xlim(ax,'auto');
+            ax.XLimitMethod = "padded";
             ylim(ax,[-5, 105]);
         
             % instantiate listener
