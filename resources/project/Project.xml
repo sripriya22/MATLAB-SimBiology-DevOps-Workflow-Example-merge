@@ -224,6 +224,303 @@
                 </Category>
             </Info>
         </File>
+        <File Location="WorkshopGuide.md">
+            <Info/>
+        </File>
+        <File Location="WorkshopGuide_media">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="image_0.png">
+                <Info/>
+            </File>
+            <File Location="image_1.png">
+                <Info/>
+            </File>
+            <File Location="image_10.png">
+                <Info/>
+            </File>
+            <File Location="image_11.png">
+                <Info/>
+            </File>
+            <File Location="image_12.png">
+                <Info/>
+            </File>
+            <File Location="image_13.png">
+                <Info/>
+            </File>
+            <File Location="image_14.png">
+                <Info/>
+            </File>
+            <File Location="image_15.png">
+                <Info/>
+            </File>
+            <File Location="image_16.png">
+                <Info/>
+            </File>
+            <File Location="image_17.png">
+                <Info/>
+            </File>
+            <File Location="image_18.png">
+                <Info/>
+            </File>
+            <File Location="image_19.png">
+                <Info/>
+            </File>
+            <File Location="image_2.png">
+                <Info/>
+            </File>
+            <File Location="image_20.png">
+                <Info/>
+            </File>
+            <File Location="image_21.png">
+                <Info/>
+            </File>
+            <File Location="image_22.png">
+                <Info/>
+            </File>
+            <File Location="image_23.png">
+                <Info/>
+            </File>
+            <File Location="image_24.png">
+                <Info/>
+            </File>
+            <File Location="image_25.png">
+                <Info/>
+            </File>
+            <File Location="image_26.png">
+                <Info/>
+            </File>
+            <File Location="image_27.png">
+                <Info/>
+            </File>
+            <File Location="image_28.png">
+                <Info/>
+            </File>
+            <File Location="image_29.png">
+                <Info/>
+            </File>
+            <File Location="image_3.png">
+                <Info/>
+            </File>
+            <File Location="image_30.png">
+                <Info/>
+            </File>
+            <File Location="image_31.png">
+                <Info/>
+            </File>
+            <File Location="image_32.png">
+                <Info/>
+            </File>
+            <File Location="image_33.png">
+                <Info/>
+            </File>
+            <File Location="image_34.png">
+                <Info/>
+            </File>
+            <File Location="image_35.png">
+                <Info/>
+            </File>
+            <File Location="image_36.png">
+                <Info/>
+            </File>
+            <File Location="image_37.png">
+                <Info/>
+            </File>
+            <File Location="image_38.png">
+                <Info/>
+            </File>
+            <File Location="image_39.png">
+                <Info/>
+            </File>
+            <File Location="image_4.png">
+                <Info/>
+            </File>
+            <File Location="image_40.png">
+                <Info/>
+            </File>
+            <File Location="image_41.png">
+                <Info/>
+            </File>
+            <File Location="image_42.png">
+                <Info/>
+            </File>
+            <File Location="image_43.png">
+                <Info/>
+            </File>
+            <File Location="image_44.png">
+                <Info/>
+            </File>
+            <File Location="image_45.png">
+                <Info/>
+            </File>
+            <File Location="image_46.png">
+                <Info/>
+            </File>
+            <File Location="image_47.png">
+                <Info/>
+            </File>
+            <File Location="image_48.png">
+                <Info/>
+            </File>
+            <File Location="image_49.png">
+                <Info/>
+            </File>
+            <File Location="image_5.png">
+                <Info/>
+            </File>
+            <File Location="image_50.png">
+                <Info/>
+            </File>
+            <File Location="image_51.png">
+                <Info/>
+            </File>
+            <File Location="image_52.png">
+                <Info/>
+            </File>
+            <File Location="image_53.png">
+                <Info/>
+            </File>
+            <File Location="image_54.png">
+                <Info/>
+            </File>
+            <File Location="image_55.png">
+                <Info/>
+            </File>
+            <File Location="image_56.png">
+                <Info/>
+            </File>
+            <File Location="image_57.png">
+                <Info/>
+            </File>
+            <File Location="image_58.png">
+                <Info/>
+            </File>
+            <File Location="image_59.png">
+                <Info/>
+            </File>
+            <File Location="image_6.png">
+                <Info/>
+            </File>
+            <File Location="image_60.png">
+                <Info/>
+            </File>
+            <File Location="image_61.png">
+                <Info/>
+            </File>
+            <File Location="image_62.png">
+                <Info/>
+            </File>
+            <File Location="image_63.png">
+                <Info/>
+            </File>
+            <File Location="image_64.png">
+                <Info/>
+            </File>
+            <File Location="image_65.png">
+                <Info/>
+            </File>
+            <File Location="image_66.png">
+                <Info/>
+            </File>
+            <File Location="image_67.png">
+                <Info/>
+            </File>
+            <File Location="image_68.png">
+                <Info/>
+            </File>
+            <File Location="image_69.png">
+                <Info/>
+            </File>
+            <File Location="image_7.png">
+                <Info/>
+            </File>
+            <File Location="image_70.png">
+                <Info/>
+            </File>
+            <File Location="image_71.svg">
+                <Info/>
+            </File>
+            <File Location="image_72.svg">
+                <Info/>
+            </File>
+            <File Location="image_73.png">
+                <Info/>
+            </File>
+            <File Location="image_74.png">
+                <Info/>
+            </File>
+            <File Location="image_75.png">
+                <Info/>
+            </File>
+            <File Location="image_76.png">
+                <Info/>
+            </File>
+            <File Location="image_77.svg">
+                <Info/>
+            </File>
+            <File Location="image_78.png">
+                <Info/>
+            </File>
+            <File Location="image_79.svg">
+                <Info/>
+            </File>
+            <File Location="image_8.png">
+                <Info/>
+            </File>
+            <File Location="image_80.png">
+                <Info/>
+            </File>
+            <File Location="image_81.png">
+                <Info/>
+            </File>
+            <File Location="image_82.png">
+                <Info/>
+            </File>
+            <File Location="image_83.png">
+                <Info/>
+            </File>
+            <File Location="image_84.png">
+                <Info/>
+            </File>
+            <File Location="image_85.png">
+                <Info/>
+            </File>
+            <File Location="image_86.png">
+                <Info/>
+            </File>
+            <File Location="image_87.png">
+                <Info/>
+            </File>
+            <File Location="image_88.png">
+                <Info/>
+            </File>
+            <File Location="image_89.png">
+                <Info/>
+            </File>
+            <File Location="image_9.png">
+                <Info/>
+            </File>
+            <File Location="image_90.png">
+                <Info/>
+            </File>
+            <File Location="image_91.png">
+                <Info/>
+            </File>
+            <File Location="image_92.png">
+                <Info/>
+            </File>
+            <File Location="image_93.png">
+                <Info/>
+            </File>
+            <File Location="image_94.png">
+                <Info/>
+            </File>
+            <File Location="image_95.png">
+                <Info/>
+            </File>
+        </File>
     </Files>
     <Info Location="ProjectData">
         <Info Name="DevOps"/>
