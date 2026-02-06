@@ -39,7 +39,7 @@ plan("compile").Inputs = fullfile(proj.RootFolder,"code",["simFunction_Dose.mat"
 plan("compile").Outputs = fullfile(proj.RootFolder,"WebAppArchive");
 
 % Set default task
-plan.DefaultTasks = "compile";
+plan.DefaultTasks = "test";
 
 end
 
